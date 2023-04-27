@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Monad
+- text: Optional
+- text: Stream
+- text: Try
+- text: Option
+- text: Promise
+- text: IO
+- text: Maybe
+- text: CompletableFuture
+- text: Transactional
+- text: Either
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Unchecked
+record: -1
